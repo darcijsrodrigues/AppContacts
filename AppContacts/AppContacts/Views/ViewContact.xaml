@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 xmlns:vm="clr-namespace:AppContacts.ViewModels;assembly=AppContacts" 
+			 x:Class="AppContacts.Views.ViewContact">	
+	<ContentPage.Content>
+		<StackLayout Padding="10,10,10,10" Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+			<Image Source="user168.ico" HeightRequest="100" 		WidthRequest="100" />
+			<Entry Text="{Binding Nome}" 	  Placeholder="Nome"    WidthRequest="180" IsEnabled="false"/>
+			<Entry Text="{Binding SobreNome}" Placeholder="SobreNome" WidthRequest="180" IsEnabled="false"/>
+			<Entry Text="{Binding Email}"     Placeholder="Email" 	Keyboard="Email" WidthRequest="180" IsEnabled="false"/>
+			<Entry Text="{Binding Telefone}"  Placeholder="Telefone" Keyboard="Telephone" WidthRequest="180" IsEnabled="false"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

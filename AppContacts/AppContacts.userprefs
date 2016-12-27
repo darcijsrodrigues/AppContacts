@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{E20E8C6C-8B1B-4981-AC2A-0C26B3014B43}|Default">
+  <MonoDevelop.Ide.ItemProperties.AppContacts.Droid PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="AppContacts/ViewModels/BaseViewModel.cs" Line="25" Column="1" />
+      <File FileName="AppContacts/ViewModels/ViewModelContact.cs" Line="78" Column="39" />
+      <File FileName="AppContacts/ViewModels/ViewModelListContacts.cs" Line="44" Column="42" />
+      <File FileName="AppContacts/Views/ViewContactList.xaml" Line="14" Column="104" />
+      <File FileName="AppContacts/Views/ViewContactList.xaml.cs" Line="8" Column="28" />
+      <File FileName="AppContacts/Views/ViewContact.xaml.cs" Line="1" Column="1" />
+      <File FileName="AppContacts/Views/ViewContact.xaml" Line="16" Column="1" />
+      <File FileName="AppContacts/App.xaml.cs" Line="12" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AppContacts.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38E9B288-FB38-4E21-BC0A-16311232425C" />
+</Properties>
